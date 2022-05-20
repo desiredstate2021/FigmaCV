@@ -1,45 +1,151 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgba(196, 196, 196, 1);
-}
-
-.header {
-    height: 100px;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(35, 38, 100, 1);
-}
-
-.container-1 {
-    display: grid;
-    width: max-content;
-    margin-top: 40px;
-    gap: 15px;
-    grid-template-areas: "cont-1 cont-2" "cont-1 cont-3";
-    font-family: monospace;
-    margin-left: 25%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.cont-1 {
-    grid-area: cont-1;
-}
-
-.cont-2 {
-    grid-area: cont-2;
-    align-self: center;
-    font-size: 30px;
-}
-
-.cont-3 {
-    grid-area: cont-3;
-    align-self: start;
-    font-size: 60px;
-}
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: #d6dbcc;
+            }
+            
+            .top {
+                background: #232664;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1010px;
+                height: 100px;
+                margin-bottom: 25px;
+            }
+            
+            .container-1 {
+                margin-left: 400px;
+                width: 320px;
+                height: auto;
+            }
+            
+            img {
+                width: 320px;
+                height: 320px;
+            }
+            
+            li {
+                list-style: none;
+            }
+            
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 100px);
+                gap: 10px;
+                padding-bottom: 15px;
+            }
+            
+            .grid-item-1 {
+                position: relative;
+            }
+            
+            .grid-item-2 {
+                position: relative;
+                font-size: 20px;
+                line-height: 38px;
+                font-family: 'Fira Mono', monospace;
+                align-self: end;
+            }
+            
+            .grid-item-3 {
+                position: relative;
+                font-size: 22px;
+                font-family: 'Fira Mono', monospace;
+                grid-column: 2;
+            }
+            
+            .grid-item-4 {
+                position: relative;
+                font-family: 'Fira Mono', monospace;
+                font-weight: 900;
+                grid-column: 2/3;
+                align-self: center;
+                width: 200px;
+            }
+            
+            .grid-item-5 {
+                position: relative;
+                justify-content: start;
+                font-size: 20px;
+                line-height: 20px;
+                width: max-content;
+            }
+            
+            .profile {
+                position: relative;
+                text-align: center;
+                font-family: 'Fira Mono', monospace;
+                font-weight: bold;
+                font-size: 20px;
+                width: 320px;
+                height: 25px;
+                margin-bottom: 10px;
+            }
+            
+            .aside {
+                position: relative;
+                text-align: center;
+                width: 320px;
+                height: auto;
+            }
+            
+            .grid-2 {
+                flex-direction: column;
+                max-width: fit-content;
+                width: 320px;
+            }
+            
+            .container-2 {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 15px;
+            }
+            
+            .container-3 {
+                margin-bottom: 15px;
+                width: 320px;
+            }
+            
+            .container-4 {
+                width: 320px;
+            }
+            
+            .grid-3 {
+                flex-direction: column;
+            }
+            
+            .skills {
+                font-family: 'Fira Mono', monospace;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+            .skills-list {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+            }
+            
+            .soft-skills {
+                font-family: 'Fira Mono', monospace;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+            .soft-skills-list {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+            }
