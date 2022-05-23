@@ -38,15 +38,18 @@ body {
 .grid-item-1 {}
 
 .grid-item-2 {
+    font-family: 'Fira Mono';
     align-self: end;
 }
 
 .grid-item-3 {
+    font-family: 'Fira Mono';
     align-self: center;
     grid-column: 2;
 }
 
 .grid-item-4 {
+    font-family: 'Fira Mono';
     align-self: center;
     grid-column: 2;
     grid-row: 3;
@@ -57,22 +60,18 @@ body {
     grid-row: 3;
 }
 
-li {}
-
 .flex-container-1 {
-    /* display: flex;
-    width: fit-content;
-    flex-direction: column; */
-    padding-left: 105px;
+    padding-left: 118px;
     padding-top: 15px;
     grid-row-start: 1;
+    width: fit-content;
 }
 
 .flex-container-1-item-1 {
+    font-family: 'Fira Mono';
     border-bottom: solid 2px rgb(1, 12, 12);
     text-align: center;
-    width: 296px;
-    padding-bottom: 5px;
+    width: 300px;
 }
 
 .flex-container-1-item-2 {
@@ -81,11 +80,7 @@ li {}
 }
 
 .flex-container-2 {
-    /* display: flex;
-    width: fit-content; */
-    padding-left: 105px;
-    padding-top: 15px;
-    /* grid-template-rows: 2; */
+    padding-left: 118px;
     grid-column-start: 1;
 }
 
@@ -94,31 +89,23 @@ li {}
     width: 300px;
     padding-bottom: 5px;
     text-align: center;
-    /* list-style: none; */
 }
 
 .flex-container-3 {
-    /* display: flex;
-    width: fit-content;
-    flex-direction: column; */
-    padding-left: 105px;
+    padding-left: 118px;
     grid-column-start: 1;
 }
 
 .flex-container-3-item-1 {
     align-self: center;
     width: 300px;
-    /* padding-bottom: 5px; */
     text-align: center;
 }
 
 .soft-skills-list {}
 
 .flex-container-4-item-1 {
-    border-top: solid 2px rgb(1, 12, 12);
     border-bottom: solid 2px rgb(1, 12, 12);
-    /* width: fit-content; */
-    text-align: center;
 }
 
 .list {}
@@ -128,32 +115,36 @@ li {}
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 175px 1fr;
     gap: 1.5rem;
+    justify-content: flex-start;
 }
 
 .soft-skills {
+    font-family: 'Fira Mono';
     border-bottom: solid 2px rgb(1, 12, 12);
 }
 
 .skills {
+    font-family: 'Fira Mono';
     border-bottom: solid 2px rgb(1, 12, 12);
 }
 
-.flex-container-2 ul {}
-
-.flex-container-3 ul {}
+.skill-list li {
+    list-style: none;
+}
 
 .aside {
     grid-column-start: 2;
     grid-row-start: 1;
+    width: fit-content;
 }
 
 .flex-container-4-item-1 li {}
 
 .icons {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 60px);
     grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
+    justify-content: center;
 }
 
 .icons-1 {
@@ -165,41 +156,96 @@ li {}
 .icons-9 {
     grid-column: 4;
     grid-row: 2;
-    justify-self: end;
+    justify-self: center;
 }
 
 .icons-10 {
     grid-column: 5;
     grid-row: 2;
-    justify-self: end;
+    justify-self: center;
 }
 
 .icons-3 {
     grid-column: 6;
     grid-row: 2;
-    justify-self: end;
+    justify-self: center;
 }
 
 .icons-4 {
-    grid-column: 8;
-    grid-row: 1;
-    justify-self: start;
+    grid-column: 7;
+    grid-row: 2;
+    justify-self: center;
 }
 
 .icons-5 {
     grid-column: 7;
     grid-row: 1;
-    justify-self: start;
+    justify-self: end;
 }
 
 .icons-6 {
     grid-column: 6;
     grid-row: 1;
-    justify-self: center;
+    justify-self: end;
 }
 
 .icons-8 {
     grid-column: 5;
     grid-row: 1;
     justify-self: center;
+}
+
+.icons-2 {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: start;
+}
+
+.icons-7 {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: start;
+}
+
+.work {
+    font-family: 'Fira Mono';
+    border-bottom: solid 2px rgb(1, 12, 12);
+    padding-top: 15px;
+    text-align: center;
+}
+
+.education {
+    font-family: 'Fira Mono';
+    padding-top: 6px;
+    border-bottom: solid 2px rgb(1, 12, 12);
+    text-align: center;
+}
+
+.aside,
+p {
+    text-align: center;
+}
+
+.skills-ul {
+    list-style: none;
+}
+
+.soft-skills-ul {
+    list-style: none;
+}
+
+.address {
+    list-style-image: url("icons/icons8-address-color-16.png");
+}
+
+.email {
+    list-style-image: url("icons/icons8-gmail-color-16.png");
+}
+
+.tele {
+    list-style-image: url("icons/icons8-call-16.png");
+}
+
+.github {
+    list-style-image: url("icons/icons8-github-16.png");
 }
