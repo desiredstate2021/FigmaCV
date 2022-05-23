@@ -7,7 +7,7 @@
 body {
     background-image: url("images/starbgbig.jpg");
     background-size: cover;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .top {
@@ -248,4 +248,8 @@ p {
 
 .github {
     list-style-image: url("icons/icons8-github-16.png");
+}
+
+.list-5 {
+    padding-bottom: 6px;
 }
