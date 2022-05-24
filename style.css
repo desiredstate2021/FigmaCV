@@ -11,7 +11,7 @@ body {
 }
 
 .top {
-    background-color: rgb(46, 46, 143);
+    background-color: rgb(70, 70, 95);
     margin-right: auto;
     margin-left: auto;
     width: 1010px;
@@ -34,8 +34,6 @@ body {
     justify-content: center;
     padding-top: 10px;
 }
-
-.grid-item-1 {}
 
 .grid-item-2 {
     font-family: 'Fira Mono';
@@ -102,13 +100,9 @@ body {
     text-align: center;
 }
 
-.soft-skills-list {}
-
 .flex-container-4-item-1 {
     border-bottom: solid 2px rgb(1, 12, 12);
 }
-
-.list {}
 
 .flex {
     display: grid;
@@ -137,8 +131,6 @@ body {
     grid-row-start: 1;
     width: fit-content;
 }
-
-.flex-container-4-item-1 li {}
 
 .icons {
     display: grid;
@@ -216,7 +208,7 @@ body {
 
 .education {
     font-family: 'Fira Mono';
-    padding-top: 6px;
+    padding-top: 3px;
     border-bottom: solid 2px rgb(1, 12, 12);
     text-align: center;
 }
@@ -227,6 +219,7 @@ p {
 }
 
 .skills-ul {
+    text-align: center;
     list-style: none;
 }
 
@@ -252,4 +245,61 @@ p {
 
 .list-5 {
     padding-bottom: 6px;
+}
+
+.javascript {
+    list-style-image: url("icons/icons8-javascript-16.png");
+}
+
+.react {
+    list-style-image: url("icons/icons8-react-native-16.png");
+}
+
+.html {
+    list-style-image: url("icons/icons8-html-5-16.png");
+}
+
+.css {
+    list-style-image: url("icons/icons8-css3-16.png");
+}
+
+.nodejs {
+    list-style-image: url("icons/icons8-nodejs-16.png");
+}
+
+.sql {
+    list-style-image: url("icons/icons8-sql-16.png");
+}
+
+.uxui {
+    list-style-image: url("icons/icons8-ui-design-16.png");
+}
+
+.seo {
+    list-style-image: url("icons/icons8-search-engine-optimization-16.png");
+}
+
+.scrum {
+    list-style-image: url("icons/icons8-scrum-16.png");
+}
+
+.msproject {
+    list-style-image: url("icons/icons8-microsoft-project-16.png");
+}
+
+.bottom {
+    background-color: rgb(70, 70, 95);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1010px;
+    height: 100px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
